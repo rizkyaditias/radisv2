@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rizky And Dinda</title>
+    <!-- SWEET ALERT 2 -->
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js
+"></script>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css
+"
+      rel="stylesheet"
+    />
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- simply countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Boostrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h4>Happy Birthday, <span></span></h4>
+        <h1>Dinda Sulistiawati</h1>
+        <p>sebelum tekan tombol itu kencengin volume dulu🥳🥳</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Tekan Sini Ayanggkuu</a>
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">RaDis</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">RaDis</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Rizky</a>
+              <a class="nav-link" href="#info">D</a>
+              <a class="nav-link" href="#story">I</a>
+              <a class="nav-link" href="#gallery">N</a>
+              <a class="nav-link" href="#rsvp">D</a>
+              <a class="nav-link" href="#gifts">A</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Selamat Ulang Tahun</h2>
+            <h3>Yang ke 19 Tahun</h3>
+            <p>
+              Cieeeeee yang hari ini ulang tahun emang ya bener kata orang kalo kita itu bagai ibarat kopi susu ngga aja ada meja walau ada terharu yakan mikirr!!!......
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Kamu</h3>
+                <p>
+                  Ayang Kamu Sayang Sama Aku Ga Siiii?
+                </p>
+                <p>EVERYDAY</p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="img/dinda.jpg"
+                  alt="Dinda"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-balloon-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/iki.jpg"
+                  alt="Rizky"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Aku</h3>
+                <p>
+                  Aku Sayang banget
+                </p>
+                <p>ill give u more more more malove</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Sakral Katanya mah</h2>
+            <p class="alamat">
+              yaa sebenernya siiii ga sepesial sepesial amat karena yang sepesial udah ada dikamu jiajajajaja kelazZz
+            </p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440.57302828200807!2d106.6920963914095!3d-6.346941714214918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e52f0d244823%3A0xe8d8bea9efdbfe78!2sPONDOK%20MAKAN%20CEMARA!5e0!3m2!1sid!2sid!4v1702450180882!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <a
+              href="https://maps.app.goo.gl/q2thsnpYpqZ7cywy9"
+              target="_blank"
+              class="btn btn-light btn-sm my-4"
+              >Disini Kita Jadian</a
+            >
+            <p class="description">
+              ini tuh yaaa tempat yang membekas banget disini aku kenal kamu dan juga ya disini kita jadian kalo kata orang tua zaman dulu mahh tempat sakral
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">kiwww yang lagi ulang tahunnn</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-cake2"></i>
+                    <span>for youuuuuuuuu</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">bulu kuduk merinding ternyata ada kamu yang selalu dihatiku eaaa ganyambung tolol</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Aku punya sedikit cerpen judulnya</span>
+            <h2>NAAJISSS JAMETT</h2>
+            <p>Syuuuttt, ayang sebelum lanjut baca siapin minum dulu ama cemilan bila perlu. aku kasih spoiler dikit ini tuh si kisah antara kita yang dimabuk cinta ya ibarat kan mahh ini tuh nasi dalam lauk kalo gada nasi gakenyang sama kek ini. ini tuh penting banget ya walau masih pentingan kamu siii kiww eaaa amjaii 👱‍♀️: aaaaa ayang aku salting </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>23 Desember 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Ayang hari ini aku ulang tahun tauuu</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>terus???</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Ishhh kamu mahh</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>cep cep cep iya sayang selamat hari raya ulang tahun akuu, semoga aku sehat selalu</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>bodo aku mau ngambek aja</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>yauda ngambek aja sono</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>tuh kan udah gasayang ini mahh😞</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>kamu tau ga hari apa yang paling terindah selain hari ulang tahunn</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>ngga tu</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>saat hari hari ku bersama mu🫨</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>aaaaaaa papihhh mahhh cocwiittt aaaaaa papiihhh makin cayang dechhhhhh</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>iyaaaa bunda, papih juga makin sayang sama bunda cini cini peyukkk</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>ihhhhhh papihhh lucuuu, papih papih aku mau esklimm</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>ayo bunda kita beli esklim, kamu mau esklim apa?</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>ngga tau papihh ihh bunda bingungg</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>yauda kita beli when esklim with u my day feels perfect</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>aaaaaaaaa papihhhh gemessss ihhhh papihhh aaaa aku salting ihh papih mahhhhh</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>bunda lucu dehhhh gemecccc bangettt</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>ishhh papih siii kan gara garanya udah ahhhh</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>papih, papih kenapa diem aja udah gasayang ya</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>papih tuh lagi mikir bund</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>mikir apasi pih serius amat</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>aku lagi mikir ini bund kenapa ya masa bidadari kaya kamu gapunya sayap</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>aaaaaaaaaa papihhhhh mahhhhhhh aaaaaaaaaaa</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>ihhhh bunda lucu gemeccc pipi nya merahhhhh</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>aaaaaaaa ngga papihhh mahhh boong papihh aaaaaa</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>papihhh, mau peyukkkk papih gemecccc</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Akuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>iya ciini bundaaa</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Kamuu</h3>
+                    <span>-------</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>aaaa papihhhh gemecccccccccccccccccccccccccccccccc</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Bersambung</h2> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>ini tuhh apaya udah pokoknya liat aja</span>
+            <h2>Galeri</h2>
+            <p>siapin tisyuu aku takut kamu nangisss liatnya, gausa buru buru dihayati liatnya. Diklik gambarnya ya ayang</p>
+          </div>
+      </div>
+
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+        <div class="col mt-3">
+          <a href="img/gallery/satu.jpg" data-toggle="lightbox" data-caption="Awal dari kisah kita hehehehe" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/satu.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/dua.jpg" data-toggle="lightbox" data-caption="Kek jamed🥰" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/dua.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/tiga.jpg" data-toggle="lightbox" data-caption="Gatau kenapa aku suka banget sama foto kamu disini" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/tiga.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/empat.jpg" data-toggle="lightbox" data-caption="Ini foto waktu kita mau publish kita pacaran terus kamu posting ini duluan. Aku belum posting kamu sampe kaya salting2 sendiri lucu banget...heheehe " data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/empat.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/utuh1.jpg" data-toggle="lightbox" data-caption="Kita, AKU DAN KAMU" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/1.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/utuh2.jpg" data-toggle="lightbox" data-caption="Tak terukur indahnya, seperti kita yang tak terbatas dalam cinta ini.❤️ " data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/2.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/utuh3.jpg" data-toggle="lightbox" data-caption="Bersamamu, setiap detik terasa seperti kisah cinta yang tak berujung." data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/3.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/utuh4.jpg" data-toggle="lightbox" data-caption="Memandangmu adalah sumber kebahagiaanku." data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/4.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/5.jpg" data-toggle="lightbox" data-caption="Dalam matamu, aku menemukan dunia yang lebih indah daripada apa pun yang bisa aku bayangkan. " data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/5.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/lima.jpg" data-toggle="lightbox" data-caption="apasih ini lucu banget 😭😭 " data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/lima.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/enam.jpg" data-toggle="lightbox" data-caption="Ketika kita berdua bersama, waktu terasa seperti berhenti berputar, dan aku terhanyut dalam keindahan yang tak terukur dari kasih sayangmu. Setiap senyummu membawa sinar hangat yang mampu mencerahkan hari ku " data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/enam.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/tujuh.jpg" data-toggle="lightbox" data-caption="Aku mencintaimu dengan cara yang sulit diungkapkan dengan kata-kata biasa. Cintaku padamu adalah komposisi dari ratusan nuansa yang melibatkan perasaan, keinginan, dan harapan. Setiap detik bersamamu adalah lembaran baru dalam buku cinta kita, dan aku berjanji untuk menjaganya dengan hati yang setulus dan sehangat cinta yang kau berikan. " data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/tujuh.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/lapan.jpg" data-toggle="lightbox" data-caption="Aku mencintaimu bukan hanya untuk saat ini, tapi untuk setiap saat yang akan datang. Kita seperti dua puzzle yang saling melengkapi, membentuk gambar sempurna ketika bersatu" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/lapan.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/bilan.jpg" data-toggle="lightbox" data-caption="Ketika aku melihat ke belakang pada setiap perjalanan yang kita lalui, aku tersentuh oleh bagaimana kita tumbuh bersama, melewati rintangan, dan tetap setia satu sama lain. Aku tidak tahu apa yang masa depan bawa, tapi satu hal yang pasti aku ingin menghabiskan setiap detiknya bersamamu" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/bilan.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/sepuluh.jpg" data-toggle="lightbox" data-caption="Terima kasih, karena kehadiranmu telah mengubah hidupku menjadi petualangan romantis yang takkan terlupakan. Kata-kata mungkin tak dapat sepenuhnya mengungkapkan, namun setiap kali aku menyusunnya, itu adalah usaha kecilku untuk menyampaikan betapa besar dan dalamnya cintaku padamu." data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/sepuluh.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Makasih sayang</h2>
+            <p>kasih tau aku kamu seneng apa ngga?</p>
+          </div>
+      </div>
+
+      <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" 
+      action="https://script.google.com/macros/s/AKfycby-Y2Pp-VU1POH5qIMBeccX17bHUgxA1wBkiDn-XXvOtdBD7yYJCyT45Uwj3ppkPY-a/exec" id="my-form">
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="pesan" class="form-label">ketik pesan kamu sini yang</label>
+            <input type="text" class="form-control" id="pesan" name="pesan">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="rate" class="form-label">rate 1-10</label>
+            <input type="number" class="form-control" id="rate" name="rate" min="1" max="10" length="1" value="1">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="status" class="form-label">ekspresi</label>
+            <select name="status" id="status" class="form-select">
+              <option selected>pilih salah satu</option>
+              <option value="1">Seneng 😊</option>
+              <option value="seneng aja">seneng aja 🤗</option>
+              <option value="seneg banget">seneng banget 🥰</option>
+              <option value="bahagia banget">bahagia banget 😘</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-12" style="margin-top: 35px;">
+          <button class="btn btn-primary">Kirimss</button>
+        </div>
+        </form>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://radiss.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section id="gifts" class="gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Hehehe Maap ya ayang kalo dari 3 minggu kemaren aku bales chat kamu kadang lama aku lagi buat ini</span>
+            <h2>Aku Sayang Kamu</h2>
+            <p>Aku minta maap, aku gagal jadi pacar kamu tapi aku bakal berusaha dan aku gapernah sedikitpun mikir kalo kamu beban buat aku. "pas lagi ngetik ini kamu bilang mau jaga jarak dulu, chat aku ngga kamu bales bahkan kamu liat aja ngga😞" aku selalu mantau kalo itu notif dari kamu, AKU KESEPIAN YANGGG🤧</p>
+          </div>
+      </div>
+
+      <div class="row justify-content-center text-center">
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="fw-bold">Dari Aku</div>
+              Selamat ulang tahun, cinta hatiku! Di hari istimewa ini, doaku agar setiap langkahmu dipenuhi dengan kebahagiaan, dan setiap detik kita bersama menjadi kenangan indah. Semoga tahun ini dan seterusnya penuh dengan cinta, sukses, dan petualangan yang menyenangkan. Aku harap setiap hari membawamu lebih dekat pada impian-impianmu, dan setiap momen bersama kita menjadi babak baru dalam kisah cinta kita. "I'm grateful to have you as a part of my life. Happy birthday, my love!"
+            </li>
+            <li class="list-group-item">
+              <div class="fw-bold">-------</div>
+              Aku harap setelah kamu liat ini kamu ngga takut lagi untuk ulang tahun 
+            </li>
+            <li class="list-group-item">
+              <div class="fw-bold">--------------------------------------------------</div>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2023 Rizkyy And Dinda.</small>
+            <small class="block">Design by <a href="https://instagram.com/rizkyydityaa">@rizkyydityaa</a></small>
+
+            <ul class="mt-3">
+              <li><a href="https://instagram.com/rizkyydityaa"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://tiktok.com/kerocogaming"><i class="bi bi-tiktok"></i></a></li>
+              <li><a href="https://twitter.com/rizkyydityaa"><i class="bi bi-twitter"></i></a></li>
+              <li><a href="https://instagram.com/dindaslst_"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://facebook.com/dinda"><i class="bi bi-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/likewejustmet.mp3" type="audio/mp3">
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none;">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2023, // required
+        month: 12, // required
+        day: 23, // required
+        hours: 23, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offCanvas = document.querySelector('.offcanvas');
+
+      offCanvas.addEventListener('show.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'visible';
+      });
+
+      offCanvas.addEventListener('hidden.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper')
+      const audioIcon = document.querySelector('.audio-icon-wrapper i')
+      const song = document.querySelector('#song')
+      let isPlaying = false;
+
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft)
+        }
+
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScroll() {
+        window.onscroll = function() {
+          
+        }
+        rootElement.style.scrollBehavior = 'smooth'
+        // localStorage.setItem('opened', 'true')
+        playAudio();
+      }
+
+      function playAudio() {
+        song.play();
+        audioIconWrapper.style.display = 'flex'
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function() {
+        if(isPlaying) {
+          song.pause();
+          audioIcon.classList.remove('bi-disc')
+          audioIcon.classList.add('bi-pause-circle')
+        } else {
+          song.play();
+          audioIcon.classList.add('bi-disc')
+          audioIcon.classList.remove('bi-pause-circle')
+        }
+        isPlaying = !isPlaying;
+      }
+
+      disableScroll()
+      // if(!localStorage.getItem('opened')) {
+      //   disableScroll()
+      // }
+    </script>
+
+    <script>
+  window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      Swal.fire({
+              position: "center",
+              icon: "success",
+              title: "Makasih Ayanggg hehe..🥰😘😘",
+              color: "#14b8a6",
+              showConfirmButton: false,
+              timer: 2000,
+            });
+    })
+  });
+});
+
+    </script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get('n') || '';
+
+      const namaContainer = document.querySelector('.hero h4 span')
+      namaContainer.innerText = nama;
+    </script>
+
+  </body>
+</html>
